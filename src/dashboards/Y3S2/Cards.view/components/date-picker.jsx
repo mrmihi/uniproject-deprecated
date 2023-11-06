@@ -1,5 +1,5 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { Label } from "@/components/ui/label"
+import { Card, CardContent } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
 
 export function DemoDatePicker() {
   return (
@@ -9,9 +9,8 @@ export function DemoDatePicker() {
           <Label htmlFor="date" className="shrink-0">
             Pick a date
           </Label>
-        
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }

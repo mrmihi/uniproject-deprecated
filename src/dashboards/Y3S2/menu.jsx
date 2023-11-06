@@ -129,7 +129,7 @@ export function Menu() {
             Smart Dictation...{" "}
             <MenubarShortcut>
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://www.w3.org/2000/svg"
                 fill="none"
                 stroke="currentColor"
                 strokeLinecap="round"
@@ -147,7 +147,7 @@ export function Menu() {
             Emoji & Symbols{" "}
             <MenubarShortcut>
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://www.w3.org/2000/svg"
                 fill="none"
                 stroke="currentColor"
                 strokeLinecap="round"

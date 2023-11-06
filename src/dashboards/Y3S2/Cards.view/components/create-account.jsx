@@ -1,7 +1,6 @@
-"use client"
+"use client";
 
-
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -9,9 +8,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 
 export function DemoCreateAccount() {
   return (
@@ -24,14 +23,8 @@ export function DemoCreateAccount() {
       </CardHeader>
       <CardContent className="grid gap-4">
         <div className="grid grid-cols-2 gap-6">
-          <Button variant="outline">
-         
-            Github
-          </Button>
-          <Button variant="outline">
-       
-            Google
-          </Button>
+          <Button variant="outline">Github</Button>
+          <Button variant="outline">Google</Button>
         </div>
         <div className="relative">
           <div className="absolute inset-0 flex items-center">
@@ -56,5 +49,5 @@ export function DemoCreateAccount() {
         <Button className="w-full">Create account</Button>
       </CardFooter>
     </Card>
-  )
+  );
 }

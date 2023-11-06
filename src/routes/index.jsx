@@ -1,7 +1,6 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import { Y3S2 } from "../dashboards";
 
-
 const AnimatedRoutes = () => {
   const location = useLocation();
   return (

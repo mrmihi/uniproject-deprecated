@@ -2,10 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Sidebar } from "./sideBar";
 import { Menu } from "./menu";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import CardsPage from "./Cards.view/page"
+import CardsPage from "./Cards.view/page";
 
 const Supplier = () => {
-
   return (
     <>
       <div className="hidden md:block">
@@ -16,7 +15,7 @@ const Supplier = () => {
               <Sidebar className="hidden lg:block" />
               <div className="col-span-3 lg:col-span-4">
                 <div className="h-full px-4 py-6 lg:px-8">
-                <CardsPage/>
+                  <CardsPage />
                 </div>
               </div>
             </div>

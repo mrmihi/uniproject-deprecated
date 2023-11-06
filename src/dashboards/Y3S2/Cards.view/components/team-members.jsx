@@ -1,18 +1,14 @@
-import { ChevronDownIcon } from "@radix-ui/react-icons"
+import { ChevronDownIcon } from "@radix-ui/react-icons";
 
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/components/ui/avatar"
-import { Button } from "@/components/ui/button"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
+} from "@/components/ui/card";
 import {
   Command,
   CommandEmpty,
@@ -20,12 +16,12 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/components/ui/command"
+} from "@/components/ui/command";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover"
+} from "@/components/ui/popover";
 
 export function DemoTeamMembers() {
   return (
@@ -146,5 +142,5 @@ export function DemoTeamMembers() {
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }
