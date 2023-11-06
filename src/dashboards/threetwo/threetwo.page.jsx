@@ -4,7 +4,7 @@ import { Menu } from "./menu";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import CardsPage from "./Cards.view/page";
 
-const Y3S2 = () => {
+const ThreeTwo = () => {
   return (
     <>
       <div className="hidden md:block">
@@ -26,4 +26,4 @@ const Y3S2 = () => {
   );
 };
 
-export default Y3S2;
+export default ThreeTwo;
