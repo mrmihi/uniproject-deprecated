@@ -5,7 +5,7 @@ import Modules from "./modules";
 
 export function Sidebar({ className, playlists }) {
   return (
-    <div className={cn("pb-12 border-r-4", className)}>
+    <div className={cn("pb-12 border-r-4 sm:hidden", className)}>
       <div className="space-y-4 py-4 px-2">
         <TeamMembers />
         <Separator />
