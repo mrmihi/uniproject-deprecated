@@ -54,20 +54,20 @@ const moduleData = [
 
 const teamData = [
   {
-    memberName: "Member1",
-    memberEmail: "a@gmail.com",
+    memberName: "Harith",
+    memberEmail: "harith@gmail.com",
     github: "mrmihi",
     roles: [{ role: "Developer", roleDescription: "Write Code" }],
   },
   {
-    memberName: "Member2",
-    memberEmail: "a@gmail.com",
+    memberName: "Dinal",
+    memberEmail: "dinal@gmail.com",
     github: "",
     roles: [{ role: "Developer", roleDescription: "Write Code" }],
   },
   {
-    memberName: "Member3",
-    memberEmail: "a@gmail.com",
+    memberName: "Shehani",
+    memberEmail: "shehani@gmail.com",
     github: "",
     roles: [{ role: "Developer", roleDescription: "Write Code" }],
   },
